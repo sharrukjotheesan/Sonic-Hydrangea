@@ -9,7 +9,9 @@
     "name":"Default",
   },
   "defaultScriptType":0,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"Github","folderPath":"folders/Github.yy","name":"Github","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
