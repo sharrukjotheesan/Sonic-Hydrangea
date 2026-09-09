@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Github","folderPath":"folders/Github.yy","name":"Github","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Music + SFX","folderPath":"folders/Music + SFX.yy","name":"Music + SFX","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -27,8 +27,10 @@
   },
   "name":"Sonic Hydrangea",
   "resources":[
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"rAct1","path":"rooms/rAct1/rAct1.yy",},},
     {"id":{"name":"sFloor_Test","path":"sprites/sFloor_Test/sFloor_Test.yy",},},
+    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"tFloor_Test","path":"tilesets/tFloor_Test/tFloor_Test.yy",},},
   ],
   "resourceType":"GMProject",
