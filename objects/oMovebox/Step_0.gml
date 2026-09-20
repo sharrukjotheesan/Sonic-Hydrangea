@@ -17,18 +17,30 @@ else
 
 #endregion
 
-#region Collision
+#region Vertical movement
+
+if keyboard_check_pressed(vk_space) != 0 
+{
+	vspd += 1
+}
+
+#endregion
 
 
+#region Gravity
+
+fspd += grav
+
+if place_meeting(x, y + 1, tilemap) {vspd = 0; fspd = 0}
+if place_meeting(x + 1, y, tilemap) {hspd = 0}
 
 #endregion
 
 #region Convert gpsd to xspd & ypsd
 
 hspd = gspd * cos(degtorad(angle))
-vspd = -1 * gspd * sin(degtorad(angle))
+vspd = -1 * gspd * sin(degtorad(angle)) + fspd
 
-x += hspd
-y += vspd
+move_and_collide(hspd, vspd, tilemap)
 
 #endregion
