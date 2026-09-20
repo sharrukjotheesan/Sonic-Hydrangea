@@ -30,7 +30,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"rAct1","path":"rooms/rAct1/rAct1.yy",},},
     {"id":{"name":"sFloor_Test","path":"sprites/sFloor_Test/sFloor_Test.yy",},},
-    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"sMovebox","path":"sprites/sMovebox/sMovebox.yy",},},
     {"id":{"name":"tFloor_Test","path":"tilesets/tFloor_Test/tFloor_Test.yy",},},
   ],
   "resourceType":"GMProject",

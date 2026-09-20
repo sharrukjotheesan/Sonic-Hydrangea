@@ -1,1 +1,1 @@
-draw_sprite(sPlayer, 0, x, y)
+draw_sprite(sMovebox, 0, x, y)
